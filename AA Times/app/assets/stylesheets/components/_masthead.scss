@@ -27,8 +27,15 @@
 
 	ul {
 		display: flex;
+
+		li:first-of-type {
+		font-weight: bold;
+
+		}
 	}
 }
+
+
 
 .logo {
 	max-width: 400px;

@@ -27,8 +27,8 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: rgb(35, 88, 109);
+	border-color: rgb(19, 48, 59);
 }
 
 /*
@@ -38,7 +38,7 @@ button:hover {
 hr {
 	border: 0;
 	height: 1px;
-	background-color: $light-gray;
+	background-color: $lightest-gray;
 }
 
 .hr-top, .hr-bottom {

@@ -2,6 +2,7 @@
   display: flex; 
   justify-content: space-between;
   padding: 10px 0%;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
@@ -22,6 +23,7 @@
       text-transform: uppercase;
       cursor: pointer;
       padding: 8px 8px; 
+      margin-left: 20px;
 
     }
   }
@@ -38,17 +40,19 @@
   > ul {
 
     > li {
-      margin-left: 10px;
+      margin-left: 3px;
   
     }
 
     > li:last-of-type {
+      position: relative;
+      padding: 7px 7px;
   
     }
   }
   
   i {
-    font-size: 20px;
+    font-size: 15px;
 
   }
 }

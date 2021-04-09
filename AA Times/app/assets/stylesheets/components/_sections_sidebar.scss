@@ -1,0 +1,30 @@
+.sections-sidebar {
+    opacity: 0;
+    width: 0px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: relative; 
+    background-color: $gray;
+    overflow: hidden;
+}
+
+.sections-sidebar.expand {
+    opacity: 1;
+    display: block;
+    width: 250px;
+
+    .dropdown {
+        position: relative;
+        
+        ul {
+            display: none;
+            position: absolute;
+        }
+    }
+
+    .dropdown:hover > ul {
+        display: block;
+    }
+
+}
